@@ -1,0 +1,11 @@
+a.follow-link-imdb {
+  background-image: url(/sites/all/modules/follow/icons/small/icon-imdb.png);
+}
+
+a.follow-link-drupal {
+  background-image: url(/sites/all/modules/follow_alter/icon-drupal.png);
+  background-size:50px 50px;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 20px;
+}
