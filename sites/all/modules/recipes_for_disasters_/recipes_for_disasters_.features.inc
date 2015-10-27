@@ -18,7 +18,7 @@ function recipes_for_disasters__ctools_plugin_api($module = NULL, $api = NULL) {
  */
 function recipes_for_disasters__node_info() {
   $items = array(
-    'recipes_for_disasters_' => array(
+    'recipes_for_disasters' => array(
       'name' => t('Recipes (for Disasters)'),
       'base' => 'node_content',
       'description' => t('Recipes for Disasters'),

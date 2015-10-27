@@ -14,7 +14,7 @@ function recipes_for_disasters__menu_default_menu_links() {
   $menu_links['navigation_recipes-for-disasters:node/add/recipes-for-disasters-'] = array(
     'menu_name' => 'navigation',
     'link_path' => 'node/add/recipes-for-disasters-',
-    'router_path' => 'node/add/recipes-for-disasters-',
+    'router_path' => 'node/add',
     'link_title' => 'Recipes (for Disasters)',
     'options' => array(
       'attributes' => array(
