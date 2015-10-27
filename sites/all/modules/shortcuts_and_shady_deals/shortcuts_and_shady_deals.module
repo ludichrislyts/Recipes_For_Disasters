@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Shortcuts and Shady Deals feature.
+ */
+
+include_once 'shortcuts_and_shady_deals.features.inc';
