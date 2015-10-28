@@ -12,19 +12,19 @@
 ############
 *.7z
 *.dmg
-*.gz
+#*.gz
 *.bz2
 *.iso
 *.jar
 *.rar
 *.tar
-*.zip
+#*.zip
 *.tgz
 
 # Logs and databases #
 ######################
 *.log
-*.sql
+#*.sql
 
 # OS generated files #
 ######################
