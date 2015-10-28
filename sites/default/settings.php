@@ -212,14 +212,14 @@
  *   );
  * @endcode
  */
- /*
+
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
-      'database' => 'recipes_database',
-      'username' => 'recipe_admin',
+      'database' => 'recipe_database',
+      'username' => 'admin_recipe',
       'password' => 'password!',
       'host' => '127.0.0.1',
       'port' => '8889',
@@ -228,23 +228,23 @@ $databases = array (
     ),
   ),
 );
-*/
+
 //For Windows, Comment out above
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'recipes_database',
-      'username' => 'recipe_admin',
-      'password' => 'password!',
-      'host' => 'localhost',
-      'port' => '3306',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+// $databases = array (
+//   'default' =>
+//   array (
+//     'default' =>
+//     array (
+//       'database' => 'recipes_database',
+//       'username' => 'recipe_admin',
+//       'password' => 'password!',
+//       'host' => 'localhost',
+//       'port' => '3306',
+//       'driver' => 'mysql',
+//       'prefix' => '',
+//     ),
+//   ),
+// );
 
 /**
  * Access control for update.php script.
