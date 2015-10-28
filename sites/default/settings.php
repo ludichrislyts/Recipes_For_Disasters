@@ -212,6 +212,7 @@
  *   );
  * @endcode
  */
+ /*
 $databases = array (
   'default' => 
   array (
@@ -222,6 +223,23 @@ $databases = array (
       'password' => 'password!',
       'host' => '127.0.0.1',
       'port' => '8889',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
+*/
+//For Windows, Comment out above
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'recipes_database',
+      'username' => 'recipe_admin',
+      'password' => 'password!',
+      'host' => 'localhost',
+      'port' => '3306',
       'driver' => 'mysql',
       'prefix' => '',
     ),

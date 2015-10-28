@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Disaster theme feature.
+ */
+
+include_once 'disaster_theme.features.inc';

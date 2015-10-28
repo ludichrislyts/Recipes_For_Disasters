@@ -1,0 +1,14 @@
+name = Disaster theme
+description = Post apocalyptic colorings
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = color_bartik_files
+features[variable][] = color_bartik_logo
+features[variable][] = color_bartik_palette
+features[variable][] = color_bartik_stylesheets
+features[variable][] = css_js_query_string
+features[variable][] = theme_bartik_settings
