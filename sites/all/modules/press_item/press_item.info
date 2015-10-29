@@ -4,6 +4,7 @@ core = 7.x
 package = Features
 dependencies[] = features
 dependencies[] = image
+dependencies[] = options
 dependencies[] = overlay
 dependencies[] = pantheon_api
 dependencies[] = strongarm

@@ -213,38 +213,38 @@
  * @endcode
  */
 
-$databases = array (
-  'default' =>
-  array (
-    'default' =>
-    array (
-      'database' => 'recipe_database',
-      'username' => 'admin_recipe',
-      'password' => 'password!',
-      'host' => '127.0.0.1',
-      'port' => '8889',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
-
-//For Windows, Comment out above
 // $databases = array (
 //   'default' =>
 //   array (
 //     'default' =>
 //     array (
-//       'database' => 'recipes_database',
-//       'username' => 'recipe_admin',
+//       'database' => 'recipe_database',
+//       'username' => 'admin_recipe',
 //       'password' => 'password!',
-//       'host' => 'localhost',
-//       'port' => '3306',
+//       'host' => '127.0.0.1',
+//       'port' => '8889',
 //       'driver' => 'mysql',
 //       'prefix' => '',
 //     ),
 //   ),
 // );
+
+//For Windows, Comment out above
+$databases = array (
+  'default' =>
+  array (
+    'default' =>
+    array (
+      'database' => 'recipes_database',
+      'username' => 'recipe_admin',
+      'password' => 'password!',
+      'host' => 'localhost',
+      'port' => '3306',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
 
 /**
  * Access control for update.php script.
@@ -625,3 +625,6 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * Remove the leading hash sign to enable.
  */
 # $conf['theme_debug'] = TRUE;
+if (file_exists('settings.local.php')) {
+  require_once 'settings.local.php';
+}

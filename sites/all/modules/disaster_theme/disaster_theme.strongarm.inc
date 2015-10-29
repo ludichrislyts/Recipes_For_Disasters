@@ -15,8 +15,8 @@ function disaster_theme_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'color_bartik_files';
   $strongarm->value = array(
-    0 => 'public://color/bartik-dd55f845/logo.png',
-    1 => 'public://color/bartik-dd55f845/colors.css',
+    0 => 'public://color/bartik-7f2cd941/logo.png',
+    1 => 'public://color/bartik-7f2cd941/colors.css',
   );
   $export['color_bartik_files'] = $strongarm;
 
@@ -24,7 +24,7 @@ function disaster_theme_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'color_bartik_logo';
-  $strongarm->value = 'public://color/bartik-dd55f845/logo.png';
+  $strongarm->value = 'public://color/bartik-7f2cd941/logo.png';
   $export['color_bartik_logo'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -34,8 +34,8 @@ function disaster_theme_strongarm() {
   $strongarm->value = array(
     'top' => '#bf070d',
     'bottom' => '#f1bc1b',
-    'bg' => '#fcefbb',
-    'sidebar' => '#f8f8cc',
+    'bg' => '#f8dc6f',
+    'sidebar' => '#f8f87f',
     'sidebarborders' => '#bf070d',
     'footer' => '#380303',
     'titleslogan' => '#f8f87f',
@@ -49,7 +49,7 @@ function disaster_theme_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'color_bartik_stylesheets';
   $strongarm->value = array(
-    0 => 'public://color/bartik-dd55f845/colors.css',
+    0 => 'public://color/bartik-7f2cd941/colors.css',
   );
   $export['color_bartik_stylesheets'] = $strongarm;
 
@@ -57,7 +57,7 @@ function disaster_theme_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'nwyfp1';
+  $strongarm->value = 'nx03mz';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -75,7 +75,7 @@ function disaster_theme_strongarm() {
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 1,
     'default_logo' => 0,
-    'logo_path' => 'public://rsz_burning_2.png',
+    'logo_path' => 'public://rsz_burning.png',
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
@@ -83,8 +83,8 @@ function disaster_theme_strongarm() {
     'palette' => array(
       'top' => '#bf070d',
       'bottom' => '#f1bc1b',
-      'bg' => '#fcefbb',
-      'sidebar' => '#f8f8cc',
+      'bg' => '#f8dc6f',
+      'sidebar' => '#f8f87f',
       'sidebarborders' => '#bf070d',
       'footer' => '#380303',
       'titleslogan' => '#f8f87f',
