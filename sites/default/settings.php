@@ -235,7 +235,7 @@ $databases = array (
   array (
     'default' =>
     array (
-      'database' => 'recipes_database',
+      'database' => 'recipe_database',
       'username' => 'recipe_admin',
       'password' => 'password!',
       'host' => 'localhost',
