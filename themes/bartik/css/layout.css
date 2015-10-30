@@ -1,15 +1,6 @@
 
 /* ---------- Basic Layout Styles ----------- */
-/*#block-views-taxonomy-test-block .view-content{
-  display: inline-flex;
-  padding-left: 3px;
-  padding-right: 3px;
-  margin-left: 3px;
-}
-#block-views-taxonomy-test-block .field-content:after{
-content: " | ";
-margin-right: 3px;
-}*/
+
 html,
 body,
 #page  {

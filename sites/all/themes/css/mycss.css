@@ -1,10 +1,26 @@
+#category{
+    text-align: center;
+}
+#block-views-taxonomy-test-block :first-child{
+    text-align: center;
+}
 #block-views-taxonomy-test-block .view-content{
   display: inline-flex;
-  padding-left: 3px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*padding-left: 3px;
   padding-right: 3px;
-  margin-left: 3px;
+  margin-left: 3px;*/
 }
-#block-views-taxonomy-test-block .field-content:after{
-content: " | ";
-margin-right: 3px;
+#block-views-taxonomy-test-block .field-content{
+margin-left: 4px;
+margin-right: 4px;
+}
+/*.field-content:last-child:after{
+    content:"";
+}*/
+/*this places the content at the beginning of the div*/
+
+#block-views-taxonomy-test-block .view-content div:not(:last-child):after{
+    content:"|";
 }
